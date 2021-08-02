@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/home")
 public class HomeController {
-	
-	@GetMapping("/hello")
-	public String hello() {
-		return "hello service called : v2";
-	}
+
+    @GetMapping("/hello")
+    public String hello() {
+        System.out.println("Inside com.sck.dockerdemo.service.HomeController.hello()");
+        return "hello service called : v1";
+    }
 
 }
