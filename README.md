@@ -2,7 +2,9 @@
 
 Docker is used to make application shippable.
 ## VM vs Docker:
+
 VM Eg: vmWare, Microsoft Hyper V
+
 ![Image of VM](./virtualization.jpg)
 
 ![Image of Docker](./Docker.jpg)
