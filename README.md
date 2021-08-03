@@ -32,7 +32,7 @@ VM Eg: vmWare, Microsoft Hyper V
     java -jar docker-spring-boot.jar --server.port=8090
 ## 02) Create Docker File
     FROM : Base Docker Image 
-  in https://hub.docker.com- automatic!
+  in https://hub.docker.com
     
     ADD: Executable application to the Base docker image
     
